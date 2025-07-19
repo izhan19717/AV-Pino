@@ -1,0 +1,40 @@
+{
+  "report_name": "workflow_test",
+  "generated_plots": [
+    "prediction_timeline",
+    "confidence_matrix",
+    "reliability_assessment",
+    "fault_analysis",
+    "pde_residuals",
+    "consistency_evolution",
+    "residual_statistics",
+    "multiphysics_coupling",
+    "dashboard"
+  ],
+  "plot_files": {
+    "prediction_timeline": "test_workflow\\workflow_test_predictions_timeline.png",
+    "confidence_matrix": "test_workflow\\workflow_test_predictions_confidence.png",
+    "reliability_assessment": "test_workflow\\workflow_test_predictions_reliability.png",
+    "fault_analysis": "test_workflow\\workflow_test_predictions_fault_analysis.png",
+    "pde_residuals": "test_workflow\\workflow_test_physics_residuals.png",
+    "consistency_evolution": "test_workflow\\workflow_test_physics_consistency.png",
+    "residual_statistics": "test_workflow\\workflow_test_physics_statistics.png",
+    "multiphysics_coupling": "test_workflow\\workflow_test_physics_coupling.png",
+    "dashboard": "test_workflow\\workflow_test_dashboard.png"
+  },
+  "config": {
+    "output_dir": "test_workflow",
+    "figure_format": "png",
+    "figure_dpi": 300,
+    "style": "seaborn-v0_8"
+  },
+  "data_availability": {
+    "prediction_results": true,
+    "uncertainty_metrics": false,
+    "physics_residuals": true,
+    "constraint_violations": false,
+    "model_diagnostics": false,
+    "performance_metrics": false,
+    "benchmark_results": false
+  }
+}

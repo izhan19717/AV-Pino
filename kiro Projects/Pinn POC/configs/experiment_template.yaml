@@ -1,0 +1,66 @@
+# AV-PINO Motor Fault Diagnosis Experiment Configuration Template
+
+# Reproducibility settings
+reproducibility:
+  seed: 42
+  deterministic: true
+  benchmark: false
+  use_deterministic_algorithms: true
+
+# Model architecture configuration
+model:
+  architecture: "AGT-NO"
+  modes: 16
+  width: 64
+  layers: 4
+  activation: "gelu"
+  dropout: 0.1
+
+# Training configuration
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  epochs: 100
+  optimizer: "adamw"
+  scheduler: "cosine"
+  weight_decay: 0.0001
+  gradient_clip: 1.0
+
+# Data configuration
+data:
+  dataset: "CWRU"
+  data_path: "data/cwru"
+  sequence_length: 1024
+  overlap: 0.5
+  normalization: "standard"
+  augmentation: true
+
+# Physics constraints configuration
+physics:
+  constraints:
+    - "maxwell"
+    - "heat"
+    - "structural"
+  loss_weights:
+    data: 1.0
+    physics: 0.1
+    consistency: 0.05
+  coupling_strength: 0.1
+
+# Inference configuration
+inference:
+  batch_size: 1
+  uncertainty_samples: 100
+  confidence_threshold: 0.8
+  optimization:
+    quantization: false
+    pruning: false
+    onnx_export: false
+
+# Logging and monitoring
+logging:
+  level: "INFO"
+  log_dir: "logs"
+  tensorboard: true
+  wandb: false
+  save_frequency: 10
