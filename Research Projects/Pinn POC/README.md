@@ -387,24 +387,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Documentation**: [docs/](docs/)
 - **Issues**: [GitHub Issues](https://github.com/av-pino/motor-fault-diagnosis/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/av-pino/motor-fault-diagnosis/discussions)
-- **Email**: support@av-pino.org
+- **Email**: izhankhilji19@gmail.com
 
 ## Roadmap
 
-### Version 1.1 (Q2 2024)
+### Version 1.1 (2025)
 - [ ] Extended dataset support (industrial motor data)
 - [ ] Advanced physics modeling (nonlinear PDEs)
 - [ ] Federated learning capabilities
 - [ ] Enhanced edge optimization
 
-### Version 1.2 (Q3 2024)
+### Version 1.2 (2026)
 - [ ] Online learning and adaptation
 - [ ] Multi-asset monitoring
 - [ ] Advanced uncertainty quantification
 - [ ] Regulatory compliance features
 
-### Version 2.0 (Q4 2024)
+### Version 2.0 (2027)
 - [ ] Digital twin integration
 - [ ] Autonomous maintenance systems
 - [ ] Advanced visualization dashboard
