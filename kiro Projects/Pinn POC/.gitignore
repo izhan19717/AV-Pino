@@ -53,8 +53,10 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Data
-data/
+# Data files (but not data source code)
+data/*.csv
+data/*.h5
+data/*.hdf5
 *.csv
 *.h5
 *.hdf5
