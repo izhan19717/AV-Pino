@@ -323,24 +323,8 @@ The system is ready for:
 
 ---
 
-## 📞 Support and Contact
-
-### Development Team
-- **Technical Lead:** AV-PINO Development Team
-- **Research Contact:** research@av-pino.org
-- **Industrial Support:** industrial@av-pino.org
-- **Documentation:** docs@av-pino.org
-
-### Resources
-- **GitHub Repository:** [av-pino/motor-fault-diagnosis](https://github.com/av-pino/motor-fault-diagnosis)
-- **Documentation Site:** [docs.av-pino.org](https://docs.av-pino.org)
-- **Research Papers:** [papers.av-pino.org](https://papers.av-pino.org)
-- **Community Forum:** [community.av-pino.org](https://community.av-pino.org)
-
----
-
 **Document Version:** 1.0.0  
-**Last Updated:** January 19, 2025  
+**Last Updated:** July 23, 2025  
 **Status:** ✅ POC SUCCESSFULLY COMPLETED
 
 *This document serves as the official completion certificate for the AV-PINO Motor Fault Diagnosis POC phase.*
