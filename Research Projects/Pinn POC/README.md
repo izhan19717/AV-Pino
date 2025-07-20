@@ -381,7 +381,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Case Western Reserve University for the bearing fault dataset
 - PyTorch team for the deep learning framework
 - Physics-informed neural networks research community
-- Industrial partners for validation and feedback
 
 ## Support
 
@@ -389,26 +388,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Issues**: [GitHub Issues](https://github.com/av-pino/motor-fault-diagnosis/issues)
 - **Email**: izhankhilji19@gmail.com
 
-## Roadmap
-
-### Version 1.1 (2025)
-- [ ] Extended dataset support (industrial motor data)
-- [ ] Advanced physics modeling (nonlinear PDEs)
-- [ ] Federated learning capabilities
-- [ ] Enhanced edge optimization
-
-### Version 1.2 (2026)
-- [ ] Online learning and adaptation
-- [ ] Multi-asset monitoring
-- [ ] Advanced uncertainty quantification
-- [ ] Regulatory compliance features
-
-### Version 2.0 (2027)
-- [ ] Digital twin integration
-- [ ] Autonomous maintenance systems
-- [ ] Advanced visualization dashboard
-- [ ] Commercial deployment tools
-
----
 
 **Built with ❤️ for industrial AI applications**
